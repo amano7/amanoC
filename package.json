@@ -1,0 +1,42 @@
+{
+  "name": "amano7",
+  "version": "1.0.7",
+  "description": "A personal card for Yasushi Amano (@amano7)",
+  "main": "/bin/card.js",
+  "bin": {
+    "amano7": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amano7/amanoC.git"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Yasushi Amano <super7.amano@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.2",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "cjs": "0.0.11"
+  }
+}
