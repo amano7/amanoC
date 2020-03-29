@@ -1,6 +1,6 @@
 {
   "name": "amano7",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A personal card for Yasushi Amano (@amano7)",
   "main": "/bin/card.js",
   "bin": {
@@ -32,9 +32,9 @@
     "bin/output"
   ],
   "devDependencies": {
-    "boxen": "^2.1.0",
-    "chalk": "^2.4.2",
-    "standard": "^12.0.1"
+    "boxen": "^4.1.0",
+    "chalk": "^3.0.0",
+    "standard": "^14.0.0"
   },
   "dependencies": {
     "cjs": "0.0.11"
