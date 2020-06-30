@@ -1,6 +1,6 @@
 {
   "name": "amano7",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A personal card for Yasushi Amano (@amano7)",
   "main": "/bin/card.js",
   "bin": {

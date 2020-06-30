@@ -8,10 +8,10 @@ const path = require('path')
 
 // Define options for Boxen
 const options = {
-  padding: 1,
-  margin: 1,
-  borderStyle: 'round'
-}
+    padding: 1,
+    margin: 1,
+    borderStyle: "doubleSingle",
+};
 
 // Text + chalk definitions
 const data = {
